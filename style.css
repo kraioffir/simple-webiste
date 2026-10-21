@@ -1,0 +1,93 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  margin: 75px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.2fr;
+  border: 2px solid black;
+  text-align: left;
+}
+
+.projects {
+  border-bottom: 2px solid black;
+}
+
+.projects,
+.experience {
+  border-right: 2px solid black;
+}
+
+li {
+  list-style: none;
+}
+
+.projects ul {
+  padding-left: 0;
+}
+
+.projects li {
+  border-bottom: 1px solid black;
+  padding: 8px 20px;
+}
+
+.projects h2,
+.experience h2,
+.education h2 {
+  padding-left: 20px;
+}
+
+.experience-item:first-of-type {
+  border-bottom: 2px solid black;
+}
+
+.experience-item {
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.education p {
+  padding-left: 20px;
+}
+
+.education {
+  border-bottom: 2px solid black;
+}
+
+.comment {
+  border-radius: 30px;
+  padding: 20px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+.reviews {
+  grid-column: 1 / -1;
+}
+
+.reviews h2 {
+  padding-left: 40px;
+  margin-bottom: 0;
+}
+
+.review-cards {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.quote {
+  color: gray;
+}
+
+footer {
+  text-align: center;
+  font-size: 24px;
+}
